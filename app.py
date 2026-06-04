@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
-    import os, pathlib, datetime, requests
+import os, pathlib, datetime, requests
     
-    app = Flask(name)
+app = Flask(name)
     
     @app.route("/webhook/gumroad", methods=["POST"])
     def gumroad_webhook():
